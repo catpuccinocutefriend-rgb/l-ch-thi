@@ -1,0 +1,6 @@
+{
+  "name": "Thời Khóa Biểu & Lịch Thi 12A1",
+  "description": "Thời khóa biểu chuẩn sáng chiều theo tiết học thực tế kèm hệ thống đếm ngược lịch thi cho từng môn học.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
