@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  --color-lilac-soft: #ECD8F2;
+  --color-purple-primary: #8F60BF;
+  --color-periwinkle: #BEB6F2;
+  --color-cyan-vibrant: #079DD9;
+  --color-cyan-soft: #99D9F2;
+}
+
+@layer base {
+  body {
+    font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #faf7fd;
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(236, 216, 242, 0.45) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, rgba(153, 217, 242, 0.45) 0px, transparent 50%),
+      radial-gradient(at 50% 100%, rgba(190, 182, 242, 0.35) 0px, transparent 50%);
+    background-attachment: fixed;
+    color: #1e1b4b;
+  }
+}
+
+/* Custom theme utility classes matching user image */
+.bg-pastel-lilac {
+  background-color: #ECD8F2;
+}
+
+.text-pastel-purple {
+  color: #8F60BF;
+}
+
+.bg-pastel-purple {
+  background-color: #8F60BF;
+}
+
+.bg-pastel-periwinkle {
+  background-color: #BEB6F2;
+}
+
+.bg-pastel-cyan {
+  background-color: #079DD9;
+}
+
+.text-pastel-cyan {
+  color: #079DD9;
+}
+
+.bg-pastel-skyblue {
+  background-color: #99D9F2;
+}
+
+.border-pastel-purple {
+  border-color: #BEB6F2;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: #111827 !important;
+  }
+  .timetable-print-area {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+}
